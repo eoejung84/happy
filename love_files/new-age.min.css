@@ -1,0 +1,402 @@
+.heading-font {
+	letter-spacing: 1px; font-family: Catamaran,Helvetica,Arial,sans-serif; font-weight: 200;
+}
+.body-font {
+	font-family: Muli,Helvetica,Arial,sans-serif;
+}
+.alt-font {
+	text-transform: uppercase; letter-spacing: 2px; font-family: Lato,Helvetica,Arial,sans-serif;
+}
+body {
+	width: 100%; height: 100%;
+}
+html {
+	width: 100%; height: 100%;
+}
+body {
+	font-family: Muli,Helvetica,Arial,sans-serif; webkit-tap-highlight-color: #222;
+}
+.navbar-default {
+	letter-spacing: 1px; font-family: Catamaran,Helvetica,Arial,sans-serif; font-weight: 200;
+}
+.navbar-default .navbar-header .navbar-brand {
+	letter-spacing: 1px; font-family: Catamaran,Helvetica,Arial,sans-serif; font-weight: 200;
+}
+h1 {
+	letter-spacing: 1px; font-family: Catamaran,Helvetica,Arial,sans-serif; font-weight: 200;
+}
+h2 {
+	letter-spacing: 1px; font-family: Catamaran,Helvetica,Arial,sans-serif; font-weight: 200;
+}
+h3 {
+	letter-spacing: 1px; font-family: Catamaran,Helvetica,Arial,sans-serif; font-weight: 200;
+}
+h4 {
+	letter-spacing: 1px; font-family: Catamaran,Helvetica,Arial,sans-serif; font-weight: 200;
+}
+h5 {
+	letter-spacing: 1px; font-family: Catamaran,Helvetica,Arial,sans-serif; font-weight: 200;
+}
+h6 {
+	letter-spacing: 1px; font-family: Catamaran,Helvetica,Arial,sans-serif; font-weight: 200;
+}
+a {
+	transition:0.35s; color: rgb(200, 214, 223); -webkit-transition: all .35s; -moz-transition: all .35s;
+}
+a:focus {
+	color: rgb(252, 189, 32);
+}
+a:hover {
+	color: rgb(252, 189, 32);
+}
+hr {
+	border-width: 1px; border-color: rgba(34, 34, 34, 0.1); margin: 25px auto 0px; max-width: 100px;
+}
+hr.light {
+	border-color: rgb(255, 255, 255);
+}
+p {
+	line-height: 1.5; font-size: 18px; margin-bottom: 20px;
+}
+.navbar-default {
+	border-color: rgba(34, 34, 34, 0.05); transition:0.35s; background-color: rgb(255, 255, 255); -webkit-transition: all .35s; -moz-transition: all .35s;
+}
+.navbar-default .navbar-header .navbar-brand {
+	color: rgb(200, 214, 223);
+}
+.btn {
+	text-transform: uppercase; letter-spacing: 2px; font-family: Lato,Helvetica,Arial,sans-serif;
+}
+.navbar-default .nav > li > a {
+	text-transform: uppercase; letter-spacing: 2px; font-family: Lato,Helvetica,Arial,sans-serif;
+}
+.navbar-default .navbar-header .navbar-brand:focus {
+	color: rgb(252, 189, 32);
+}
+.navbar-default .navbar-header .navbar-brand:hover {
+	color: rgb(252, 189, 32);
+}
+.navbar-default .navbar-header .navbar-toggle {
+	padding: 8px 10px; color: rgb(34, 34, 34); font-size: 12px;
+}
+.navbar-default .nav > li > a {
+	font-size: 11px;
+}
+.navbar-default .nav > li > a {
+	color: rgb(34, 34, 34);
+}
+.navbar-default .nav > li > a:focus {
+	color: rgb(34, 34, 34);
+}
+.navbar-default .nav > li > a:hover:focus {
+	color: rgb(200, 214, 223);
+}
+.navbar-default .nav > li > a:hover {
+	color: rgb(200, 214, 223);
+}
+.navbar-default .nav > li.active > a {
+	color: rgb(200, 214, 223) !important; background-color: transparent;
+}
+.navbar-default .nav > li.active > a:focus {
+	color: rgb(200, 214, 223) !important; background-color: transparent;
+}
+.navbar-default .nav > li.active > a:hover:focus {
+	background-color: transparent;
+}
+.navbar-default .nav > li.active > a:hover {
+	background-color: transparent;
+}
+@media all and (min-width:768px)
+{
+.navbar-default {
+	border-color: transparent; background-color: transparent;
+}
+.navbar-default .navbar-header .navbar-brand {
+	color: rgba(255, 255, 255, 0.7);
+}
+.navbar-default .navbar-header .navbar-brand:focus {
+	color: rgb(255, 255, 255);
+}
+.navbar-default .navbar-header .navbar-brand:hover {
+	color: rgb(255, 255, 255);
+}
+.navbar-default .nav > li > a {
+	color: rgba(255, 255, 255, 0.7);
+}
+.navbar-default .nav > li > a:focus {
+	color: rgba(255, 255, 255, 0.7);
+}
+.navbar-default .nav > li > a:hover:focus {
+	color: rgb(255, 255, 255);
+}
+.navbar-default .nav > li > a:hover {
+	color: rgb(255, 255, 255);
+}
+.navbar-default.affix {
+	border-color: rgba(34, 34, 34, 0.1); background-color: rgb(255, 255, 255);
+}
+.navbar-default.affix .navbar-header .navbar-brand {
+	color: rgb(34, 34, 34);
+}
+.navbar-default.affix .navbar-header .navbar-brand:focus {
+	color: rgb(200, 214, 223);
+}
+.navbar-default.affix .navbar-header .navbar-brand:hover {
+	color: rgb(200, 214, 223);
+}
+.navbar-default.affix .nav > li > a {
+	color: rgb(34, 34, 34);
+}
+.navbar-default.affix .nav > li > a:focus {
+	color: rgb(34, 34, 34);
+}
+.navbar-default.affix .nav > li > a:hover:focus {
+	color: rgb(200, 214, 223);
+}
+.navbar-default.affix .nav > li > a:hover {
+	color: rgb(200, 214, 223);
+}
+}
+header {
+	background: url("../img/bg-pattern.png"), linear-gradient(to left, rgb(123, 67, 151), rgb(220, 36, 48)); width: 100%; color: rgb(255, 255, 255); position: relative; -ms-overflow-y: hidden; min-height: auto;
+}
+header .header-content {
+	padding: 150px 0px 50px; text-align: center; position: relative;
+}
+header .header-content .header-content-inner {
+	margin: 0px auto; position: relative; max-width: 500px;
+}
+header .header-content .header-content-inner h1 {
+	font-size: 30px; margin-top: 0px; margin-bottom: 30px;
+}
+header .header-content .header-content-inner .list-badges {
+	margin-bottom: 25px;
+}
+header .header-content .header-content-inner .list-badges img {
+	height: 50px; margin-bottom: 25px;
+}
+header .device-container {
+	margin: 0px auto 100px; max-width: 300px;
+}
+header .device-container .screen img {
+	border-radius: 3px;
+}
+@media all and (min-width:768px)
+{
+header {
+	min-height: 100%;
+}
+header .header-content {
+	padding: 0px; height: 100vh; text-align: left;
+}
+header .header-content .header-content-inner {
+	margin: 0px; top: 50%; position: absolute; max-width: none; transform: translateY(-50%);
+}
+header .header-content .header-content-inner h1 {
+	font-size: 35px;
+}
+header .device-container {
+	margin: 100px auto 0px; max-height: calc(0vh); max-width: none;
+}
+}
+footer {
+	text-align: center;
+}
+section.contact {
+	text-align: center;
+}
+@media all and (min-width:992px)
+{
+header .header-content .header-content-inner h1 {
+	font-size: 50px;
+}
+}
+section {
+	padding: 100px 0px;
+}
+section h2 {
+	font-size: 50px;
+}
+section.download {
+	padding: 150px 0px; position: relative;
+}
+section.download h2 {
+	font-size: 50px; margin-top: 0px;
+}
+section.download .badges .badge-link {
+	margin-bottom: 25px; display: block;
+}
+section.download .badges :last-child.badge-link {
+	margin-bottom: 0px;
+}
+section.download .badges .badge-link img {
+	height: 60px;
+}
+@media all and (min-width:768px)
+{
+section.download .badges .badge-link {
+	margin-bottom: 0px; display: inline-block;
+}
+section.download h2 {
+	font-size: 70px;
+}
+}
+section.features .section-heading {
+	margin-bottom: 100px;
+}
+section.features .section-heading h2 {
+	margin-top: 0px;
+}
+section.features .section-heading p {
+	margin-bottom: 0px;
+}
+section.features .device-container {
+	margin: 0px auto; max-width: 300px;
+}
+section.features .feature-item {
+	margin: 0px auto; max-width: 300px;
+}
+section.features .device-container {
+	margin-bottom: 100px;
+}
+@media all and (min-width:992px)
+{
+section.features .device-container {
+	margin-bottom: 0px;
+}
+section.features .device-container {
+	max-width: none;
+}
+section.features .feature-item {
+	max-width: none;
+}
+}
+section.features .feature-item {
+	text-align: center; margin-bottom: 100px;
+}
+section.contact h2 {
+	margin-top: 0px; margin-bottom: 25px;
+}
+section.cta .cta-content h2 {
+	margin-top: 0px; margin-bottom: 25px;
+}
+section.features .feature-item h3 {
+	font-size: 30px;
+}
+section.features .feature-item i {
+	background: linear-gradient(to left, rgb(123, 67, 151), rgb(220, 36, 48)); font-size: 80px; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+section.cta {
+	background-position: center; padding: 250px 0px; position: relative; background-image: url("../img/bg-cta.jpg"); background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+}
+section.cta .cta-content {
+	position: relative; z-index: 1;
+}
+section.cta .cta-content h2 {
+	color: rgb(255, 255, 255); font-size: 50px; max-width: 450px;
+}
+@media all and (min-width:768px)
+{
+section.cta .cta-content h2 {
+	font-size: 80px;
+}
+}
+section.cta .overlay {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; background-color: rgba(0, 0, 0, 0.5);
+}
+footer ul {
+	margin-bottom: 0px;
+}
+section.contact ul.list-social {
+	margin-bottom: 0px;
+}
+section.contact h2 i {
+	color: rgb(221, 75, 57);
+}
+section.contact ul.list-social li a {
+	border-radius: 100%; width: 80px; height: 80px; color: rgb(255, 255, 255); line-height: 80px; font-size: 40px; display: block;
+}
+footer p {
+	font-size: 12px;
+}
+footer ul li a {
+	font-size: 12px;
+}
+footer {
+	color: rgba(255, 255, 255, 0.3);
+}
+footer ul li a {
+	color: rgba(255, 255, 255, 0.3);
+}
+section.contact ul.list-social li.social-twitter a {
+	background-color: rgb(29, 161, 242);
+}
+section.contact ul.list-social li.social-twitter a:hover {
+	background-color: rgb(13, 149, 232);
+}
+section.contact ul.list-social li.social-facebook a {
+	background-color: rgb(59, 89, 152);
+}
+section.contact ul.list-social li.social-facebook a:hover {
+	background-color: rgb(52, 78, 134);
+}
+section.contact ul.list-social li.social-google-plus a {
+	background-color: rgb(221, 75, 57);
+}
+section.contact ul.list-social li.social-google-plus a:hover {
+	background-color: rgb(215, 57, 37);
+}
+footer {
+	padding: 25px 0px; background-color: rgb(34, 34, 34);
+}
+footer p {
+	margin: 0px;
+}
+footer ul li a.active {
+	text-decoration: none;
+}
+footer ul li a:active {
+	text-decoration: none;
+}
+footer ul li a:focus {
+	text-decoration: none;
+}
+footer ul li a:hover {
+	text-decoration: none;
+}
+.bg-primary {
+	background: linear-gradient(rgb(200, 214, 223), rgb(253, 197, 57));
+}
+.text-primary {
+	color: rgb(200, 214, 223);
+}
+.no-gutter > [class*=col-] {
+	padding-right: 0px; padding-left: 0px;
+}
+.btn-outline {
+	border: 1px solid currentColor; border-image: none; color: rgb(255, 255, 255);
+}
+.btn-outline.active {
+	border-color: rgb(200, 214, 223); color: rgb(255, 255, 255); background-color: rgb(200, 214, 223);
+}
+.btn-outline:active {
+	border-color: rgb(200, 214, 223); color: rgb(255, 255, 255); background-color: rgb(200, 214, 223);
+}
+.btn-outline:focus {
+	border-color: rgb(200, 214, 223); color: rgb(255, 255, 255); background-color: rgb(200, 214, 223);
+}
+.btn-outline:hover {
+	border-color: rgb(200, 214, 223); color: rgb(255, 255, 255); background-color: rgb(200, 214, 223);
+}
+.btn {
+	border-radius: 300px;
+}
+.btn-xl {
+	padding: 15px 45px; font-size: 11px;
+}
+::selection {
+	background: rgb(34, 34, 34); color: rgb(255, 255, 255); text-shadow: none;
+}
+img::selection {
+	background: 0px 0px; color: rgb(255, 255, 255);
+}

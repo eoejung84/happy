@@ -1,0 +1,18 @@
+@font-face {
+	font-family: Nanum Myeongjo;
+	src: url(https://fonts.gstatic.com/s/nanummyeongjo/v15/9Btx3DZF0dXLMZlywRbVRNhxy2LscnM.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nanum Myeongjo;
+	src: url(https://fonts.gstatic.com/s/nanummyeongjo/v15/9Bty3DZF0dXLMZlywRbVRNhxy2pXV2Azr_c.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nanum Myeongjo;
+	src: url(https://fonts.gstatic.com/s/nanummyeongjo/v15/9Bty3DZF0dXLMZlywRbVRNhxy2pLVGAzr_c.woff) format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
